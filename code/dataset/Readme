@@ -1,0 +1,3 @@
+the original images for training, validation and test.
+
+the training images after augmentation is in \code\trainimage
