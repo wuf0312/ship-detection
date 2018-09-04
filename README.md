@@ -34,9 +34,7 @@ The code of our method.
       
            
    3) Then run the demo:
-   
-        ~$: cd code
-      
+       
         ~$: python tools/demo.py
       
                                      
