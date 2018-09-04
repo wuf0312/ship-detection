@@ -23,7 +23,6 @@ The code of our method.
         ~$: cd code/lib
    
         ~$: make
-        
    
    2) Second: Get the model for detection. We have provided the models for ship head classification and ship localization, please
    
@@ -33,10 +32,8 @@ The code of our method.
       
       then open merge_model.ipynb and run, you will get the model for ship detection (you will get two models: demo.caffemodel, and 
       
-      
       demo_cascade_2.caffemodel.)
             
-      
       (Notice: The two models for ship detection are both large than 100M, and in our previous version of code, it seem that the models were    
       
       not uploaded correctly since such files exceed GitHub's file size limit of 100.00 MB. In this verison of code, you can do as shown 
