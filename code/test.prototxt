@@ -1,4 +1,5 @@
 input: "data"
+
 input_shape {
   dim: 1
   dim: 3
