@@ -14,7 +14,7 @@ The code of our method.
 2. Requirements: hardware
    1) a GPU (e.g., 1080, 1080Ti, Titan, K20, K40, ...) with at least 3G of memory
    
-      (we use a 1080Ti, and a GPU with at least 3G of memory should work well although we have not tested it)
+      (we use a 1080, and a GPU with at least 3G of memory should work well although we have not tested it)
       
       
 3. Demo 
