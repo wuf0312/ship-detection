@@ -18,13 +18,11 @@ The code of our method.
       
       
 3. Demo 
-   1) First:
-        
-        ~$: cd code/lib
+   1)   ~$: cd code/lib
    
         ~$: make
    
-   2) Second: Get the model for detection. We have provided the models for ship head classification and ship localization, please
+   2) Get the model for detection. We have provided the models for ship head classification and ship localization, please
    
         ~$: cd code
       
