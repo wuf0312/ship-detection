@@ -34,7 +34,7 @@ The code of our method.
       demo_cascade_2.caffemodel.)
             
       (Notice: The two models for ship detection are both large than 100M, and in our previous version of code, it seem that the models were    
-      not uploaded correctly since such files exceed GitHub's file size limit of 100.00 MB. In this verison of code, you can do as shown 
+      not uploaded correctly since such files exceed GitHub's file size limit of 100.00 MB. In this verison of code, you can do as shown as  
       above to get the models for detection.)
       
            
