@@ -35,6 +35,8 @@ def im_detect(net, im):
 def vis_detections(im, bbox, prob, save):
     """Visual debugging of detections."""
     if save:
+        if not osp.exists(cfg.ROOT_DIR + '/result'):
+            os.mkdir(cfg.ROOT_DIR + '/result')
         IMAGE_DIR = cfg.ROOT_DIR + '/result/image'
         if not osp.exists(IMAGE_DIR):
             os.mkdir(IMAGE_DIR)
