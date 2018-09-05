@@ -28,7 +28,9 @@ The code of our method.
       
         ~$: ipython notebook
       
-      then open merge_model.ipynb and run, you will get the model for ship detection (you will get two models: demo.caffemodel, and demo_cascade_2.caffemodel.)
+      then open merge_model.ipynb and run, you will get the model for ship detection 
+      
+       (you will get two models: demo.caffemodel, and demo_cascade_2.caffemodel. The demo.caffemodel is applied to the end-to-end detection, and the demo_cascade_2.caffemodel is applied to localizate ship during detection.)
             
        (Notice: The two models for ship detection are both large than 100M, and in our previous version of code, it seems that the models were not uploaded correctly since such files exceed GitHub's file size limit of 100.00 MB. In this verison of code, you can do as shown as above to get the models for detection.)
       
@@ -36,5 +38,12 @@ The code of our method.
    3) Then run the demo:
        
         ~$: python tools/demo.py
-      
+         
+         (it will load demo.caffemodel for detection)
+         
+         or
+        
+        ~$: python tools/demo_cascade.py
+         
+         (it will load demo_cascade_2.caffemodel for detection)     
                                      
